@@ -12,19 +12,19 @@ import botocore
 
 today = datetime.date.today()
 
-instance = os.getenv('instance')
-region = os.getenv("region")
-subnet_group = os.getenv('subnet_group')
-retention = os.getenv('retention')
-snapshot_prefix = os.getenv('snapshot_prefix')
-task = os.getenv('task')
-
 print(task)
 
 client = boto3.client('redshift')
 
 
 def lambda_handler(event, context):
+
+    instance = event['instance']
+    region = event['region']
+    retention = event['retention']
+    snapshot_prefix = event['snapshot_prefix']
+    subnet_group = event['subnet_group']
+    task = event['task']
 
     response = client.describe_cluster_snapshots()
     #
@@ -37,11 +37,11 @@ def lambda_handler(event, context):
         if instance == snapshot.get('ClusterIdentifier'):
             snapshot_list.append(snapshot.get('SnapshotIdentifier'))
 
-    if task == "delete":
+    if task == 'delete':
         # verify recent snapshots
         if len(snapshot_list) >= 0:
             we_can_delete = 'false'
-            if snapshot_prefix + today.strftime("%Y%m%d") in snapshot_list:
+            if snapshot_prefix + today.strftime('%Y%m%d') in snapshot_list:
                 print('We have a snapshot from, today.')
                 we_can_delete = 'true'
             else:
@@ -49,7 +49,7 @@ def lambda_handler(event, context):
                 try:
                     response = client.create_cluster_snapshot(
                         SnapshotIdentifier=snapshot_prefix +
-                        today.strftime("%Y%m%d"),
+                        today.strftime('%Y%m%d'),
                         ClusterIdentifier=instance,
                         ManualSnapshotRetentionPeriod=int(retention))
                 except botocore.exceptions.ClientError as error:
@@ -64,7 +64,7 @@ def lambda_handler(event, context):
                             print('Unknown error.')
 
         if we_can_delete == 'true':
-            print("Delete cluster.")
+            print('Delete cluster.')
             try:
                 response = client.delete_cluster(
                     ClusterIdentifier=instance,
@@ -85,7 +85,7 @@ def lambda_handler(event, context):
             for count in range(0, 7, 1):
                 prior = today - datetime.timedelta(days=count)
                 print(prior)
-                if snapshot_prefix + prior.strftime("%Y%m%d") in snapshot_list:
+                if snapshot_prefix + prior.strftime('%Y%m%d') in snapshot_list:
                     recent_snapshot_found = 'true'
                     break
         if recent_snapshot_found == 'true':
@@ -93,7 +93,7 @@ def lambda_handler(event, context):
                 response = client.restore_from_cluster_snapshot(
                     ClusterIdentifier=instance,
                     SnapshotIdentifier=snapshot_prefix +
-                    prior.strftime("%Y%m%d"),
+                    prior.strftime('%Y%m%d'),
                     ClusterSubnetGroupName=subnet_group)
             except botocore.exceptions.ClientError as error:
                 e = error
