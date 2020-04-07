@@ -1,0 +1,9 @@
+marketing-haarp-1;-:172.20.192.187;8027
+marketing-haarp-1;-:172.20.192.187;8383
+marketing-haarp-1;-:172.23.25.179;111
+marketing-haarp-1;-:172.23.25.179;22
+marketing-haarp-1;-:172.21.210.146;123
+marketing-haarp-1;-:172.23.25.179;123
+marketing-haarp-1;-:172.24.198.174;53
+marketing-haarp-1;-:172.24.231.239;53
+marketing-haarp-1;-:172.24.195.201;389

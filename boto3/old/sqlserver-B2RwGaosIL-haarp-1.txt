@@ -1,0 +1,6 @@
+sqlserver-B2RwGaosIL-haarp-1;-:172.24.198.174;53
+sqlserver-B2RwGaosIL-haarp-1;('a23-45-180-48.deploy.static.akamaitechnologies.com', ['48.180.45.23.in-addr.arpa'], ['23.45.180.48']):23.45.180.48;80
+sqlserver-B2RwGaosIL-haarp-1;-:72.21.81.240;80
+sqlserver-B2RwGaosIL-haarp-1;-:172.22.0.80;1433
+sqlserver-B2RwGaosIL-haarp-1;('a23-45-180-218.deploy.static.akamaitechnologies.com', ['218.180.45.23.in-addr.arpa'], ['23.45.180.218']):23.45.180.218;80
+sqlserver-B2RwGaosIL-haarp-1;('qagpublic.qg1.apps.qualys.com', ['93.104.39.64.in-addr.arpa'], ['64.39.104.93']):64.39.104.93;443

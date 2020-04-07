@@ -1,0 +1,17 @@
+plawsrmq02;-:172.24.198.174;53
+plawsrmq02;-:172.22.6.238;5672
+plawsrmq02;('infra-api.newrelic.com', ['5.242.247.162.in-addr.arpa'], ['162.247.242.5']):162.247.242.5;443
+plawsrmq02;-:174.128.89.241;80
+plawsrmq02;-:172.20.192.187;8027
+plawsrmq02;-:172.22.5.137;389
+plawsrmq02;-:174.128.89.241;443
+plawsrmq02;('ec2-34-234-109-24.compute-1.amazonaws.com', ['24.109.234.34.in-addr.arpa'], ['34.234.109.24']):34.234.109.24;443
+plawsrmq02;('ec2-3-137-61-214.us-east-2.compute.amazonaws.com', ['214.61.137.3.in-addr.arpa'], ['3.137.61.214']):3.137.61.214;443
+plawsrmq02;-:172.21.210.146;123
+plawsrmq02;-:172.22.6.238;123
+plawsrmq02;('ec2-34-234-127-160.compute-1.amazonaws.com', ['160.127.234.34.in-addr.arpa'], ['34.234.127.160']):34.234.127.160;443
+plawsrmq02;-:172.20.196.146;123
+plawsrmq02;-:172.20.194.141;389
+plawsrmq02;('qagpublic.qg1.apps.qualys.com', ['93.104.39.64.in-addr.arpa'], ['64.39.104.93']):64.39.104.93;443
+plawsrmq02;-:172.20.192.180;8191
+plawsrmq02;-:172.20.192.187;8383

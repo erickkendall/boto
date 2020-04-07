@@ -1,12 +1,12 @@
 import boto3
 import re
+import socket
 
 session = boto3.Session(profile_name='famc-legacy')
 client = session.client('logs', region_name='us-east-1')
 
 response = client.describe_log_groups()
 
-file1 = open("myfile.txt", "w") 
 all_logs = {}
 for log in response.get('logGroups'):
     log_group_name = log.get('logGroupName')
@@ -39,7 +39,10 @@ for server in server_list.instances.all():
         interfacedict.update({hostname: interfacelist})
 
 all_my_logs_to_parse = {}
+amazon = []
 for server_name in interfacedict.keys():
+    file1 = open(server_name + '.txt', 'w')
+    file2 = open(server_name + '_full.txt', 'w')
     interface = interfacedict.get(server_name)
     if len(interface) > 0:
         for inter in interface:
@@ -57,12 +60,63 @@ for server_name in interfacedict.keys():
                         if len(entry.split()) == 14:
                             ver, acct, interface, srcaddr, dstaddr, srcport, dstport, protocol, numpackets, numbytes, starttime, endtime, action, logstatus = entry.split()
                             val = srcaddr + ':' + srcport
+
+                            try:
+                                srcaddr_dns = socket.gethostbyaddr(srcaddr)
+                                if srcaddr_dns not in amazon:
+                                    amazon.append(srcaddr_dns)
+                            except BaseException:
+                                srcaddr_dns = '-'
+
+                            try:
+                                dstaddr_dns = socket.gethostbyaddr(dstaddr)
+                                if dstaddr_dns not in amazon:
+                                    amazon.append(dstaddr_dns)
+                            except BaseException:
+                                dstaddr_dns = '-'
+
                             if val not in srcip_port:
-                              srcip_port.append(val)
+                                srcip_port.append(val)
+
+                            file2.write(
+                                ver +
+                                ';' +
+                                acct +
+                                ';' +
+                                interface +
+                                ';' +
+                                srcaddr_dns +
+                                ';' +
+                                srcaddr +
+                                ';' +
+                                ';' +
+                                dstaddr_dns +
+                                ';' +
+                                dstaddr +
+                                ';' +
+                                srcport +
+                                ';' +
+                                dstport +
+                                ';' +
+                                protocol +
+                                ';' +
+                                numpackets +
+                                ';' +
+                                numbytes +
+                                ';' +
+                                starttime +
+                                ';' +
+                                endtime +
+                                ';' +
+                                action +
+                                '\n')
                     for i in srcip_port:
-                      ip,port = i.split(':')
-                      if len(port) < 5 and '-' not in port:
-                        file1.write(f"{server_name};{ip};{port}\n")
-
-
-file1.close()
+                        ip, port = i.split(':')
+                        try:
+                            dns = socket.gethostbyaddr(ip)
+                        except BaseException:
+                            dns = '-'
+                        if len(port) < 5 and '-' not in port:
+                            file1.write(f"{server_name};{dns}:{ip};{port}\n")
+    file1.close()
+    file2.close()

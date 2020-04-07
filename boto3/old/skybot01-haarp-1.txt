@@ -1,0 +1,13 @@
+skybot01-haarp-1;-:172.23.25.159;8008
+skybot01-haarp-1;-:172.20.192.187;8027
+skybot01-haarp-1;-:172.24.198.174;53
+skybot01-haarp-1;-:174.128.89.241;80
+skybot01-haarp-1;('qagpublic.qg1.apps.qualys.com', ['93.104.39.64.in-addr.arpa'], ['64.39.104.93']):64.39.104.93;443
+skybot01-haarp-1;-:174.128.89.241;443
+skybot01-haarp-1;-:172.23.25.159;7472
+skybot01-haarp-1;-:172.23.25.159;123
+skybot01-haarp-1;-:172.20.196.146;123
+skybot01-haarp-1;-:172.20.194.141;389
+skybot01-haarp-1;-:172.21.210.146;123
+skybot01-haarp-1;-:172.20.192.187;8383
+skybot01-haarp-1;-:172.20.196.189;389

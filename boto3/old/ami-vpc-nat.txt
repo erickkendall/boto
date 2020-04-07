@@ -1,0 +1,69 @@
+ami-vpc-nat;-:174.128.89.241;80
+ami-vpc-nat;-:172.23.40.180;443
+ami-vpc-nat;-:172.23.40.180;80
+ami-vpc-nat;-:52.46.140.46;443
+ami-vpc-nat;('qagpublic.qg1.apps.qualys.com', ['93.104.39.64.in-addr.arpa'], ['64.39.104.93']):64.39.104.93;443
+ami-vpc-nat;-:54.239.31.174;443
+ami-vpc-nat;-:172.23.40.180;123
+ami-vpc-nat;-:172.21.210.146;123
+ami-vpc-nat;-:174.128.89.241;443
+ami-vpc-nat;('206-55-191-142.static.fttp.usinternet.com', ['142.191.55.206.in-addr.arpa'], ['206.55.191.142']):206.55.191.142;123
+ami-vpc-nat;('eaanderson.com', ['219.2.33.45.in-addr.arpa'], ['45.33.2.219']):45.33.2.219;123
+ami-vpc-nat;-:194.36.101.186;5132
+ami-vpc-nat;-:54.239.29.8;443
+ami-vpc-nat;('infra-api.newrelic.com', ['5.242.247.162.in-addr.arpa'], ['162.247.242.5']):162.247.242.5;443
+ami-vpc-nat;('ec2-3-17-105-7.us-east-2.compute.amazonaws.com', ['7.105.17.3.in-addr.arpa'], ['3.17.105.7']):3.17.105.7;443
+ami-vpc-nat;('ec2-35-171-249-178.compute-1.amazonaws.com', ['178.249.171.35.in-addr.arpa'], ['35.171.249.178']):35.171.249.178;443
+ami-vpc-nat;('ec2-52-1-143-36.compute-1.amazonaws.com', ['36.143.1.52.in-addr.arpa'], ['52.1.143.36']):52.1.143.36;443
+ami-vpc-nat;('ec2-34-234-109-24.compute-1.amazonaws.com', ['24.109.234.34.in-addr.arpa'], ['34.234.109.24']):34.234.109.24;443
+ami-vpc-nat;('ec2-3-18-208-94.us-east-2.compute.amazonaws.com', ['94.208.18.3.in-addr.arpa'], ['3.18.208.94']):3.18.208.94;443
+ami-vpc-nat;-:172.20.196.146;123
+ami-vpc-nat;-:52.46.159.174;443
+ami-vpc-nat;-:44.190.6.254;123
+ami-vpc-nat;-:52.46.146.93;443
+ami-vpc-nat;('ntp.netviscom.com.253.22.64.in-addr.arpa', ['155.253.22.64.in-addr.arpa'], ['64.22.253.155']):64.22.253.155;123
+ami-vpc-nat;('scanners.labs.rapid7.com', ['181.25.185.146.in-addr.arpa'], ['146.185.25.181']):146.185.25.181;179
+ami-vpc-nat;-:157.245.104.96;1127
+ami-vpc-nat;-:200.68.10.10;5061
+ami-vpc-nat;('ec2-34-233-14-111.compute-1.amazonaws.com', ['111.14.233.34.in-addr.arpa'], ['34.233.14.111']):34.233.14.111;443
+ami-vpc-nat;-:52.46.146.198;443
+ami-vpc-nat;('ec2-3-226-59-53.compute-1.amazonaws.com', ['53.59.226.3.in-addr.arpa'], ['3.226.59.53']):3.226.59.53;443
+ami-vpc-nat;-:167.71.242.247;5061
+ami-vpc-nat;('worker-18.sfj.corp.censys.io', ['62.67.108.198.in-addr.arpa'], ['198.108.67.62']):198.108.67.62;7513
+ami-vpc-nat;-:54.239.28.168;443
+ami-vpc-nat;-:64.32.10.5;6000
+ami-vpc-nat;-:223.71.167.163;5744
+ami-vpc-nat;-:172.23.40.180;1086
+ami-vpc-nat;-:172.23.40.180;1087
+ami-vpc-nat;-:193.254.245.178;5135
+ami-vpc-nat;-:52.46.142.40;443
+ami-vpc-nat;('ec2-34-201-234-236.compute-1.amazonaws.com', ['236.234.201.34.in-addr.arpa'], ['34.201.234.236']):34.201.234.236;443
+ami-vpc-nat;-:45.141.84.29;2289
+ami-vpc-nat;('ec2-34-204-114-79.compute-1.amazonaws.com', ['79.114.204.34.in-addr.arpa'], ['34.204.114.79']):34.204.114.79;443
+ami-vpc-nat;('server.hostlan.net', ['133.200.132.164.in-addr.arpa'], ['164.132.200.133']):164.132.200.133;8746
+ami-vpc-nat;('herramientas-qro.eninetworks.com', ['15.144.65.38.in-addr.arpa'], ['38.65.144.15']):38.65.144.15;2211
+ami-vpc-nat;('host58-130-107-176.static.arubacloud.pl', ['58.130.107.176.in-addr.arpa'], ['176.107.130.58']):176.107.130.58;5082
+ami-vpc-nat;('51-158-25-170.rev.poneytelecom.eu', ['170.25.158.51.in-addr.arpa'], ['51.158.25.170']):51.158.25.170;4040
+ami-vpc-nat;('ec2-34-226-173-173.compute-1.amazonaws.com', ['173.173.226.34.in-addr.arpa'], ['34.226.173.173']):34.226.173.173;443
+ami-vpc-nat;('ec2-3-220-223-0.compute-1.amazonaws.com', ['0.223.220.3.in-addr.arpa'], ['3.220.223.0']):3.220.223.0;443
+ami-vpc-nat;-:77.247.110.25;6798
+ami-vpc-nat;-:103.134.79.110;4310
+ami-vpc-nat;-:193.254.245.178;5149
+ami-vpc-nat;-:223.71.167.163;8185
+ami-vpc-nat;-:223.71.167.163;7440
+ami-vpc-nat;-:72.21.217.64;4448
+ami-vpc-nat;('scanners.labs.rapid7.com', ['168.25.185.146.in-addr.arpa'], ['146.185.25.168']):146.185.25.168;445
+ami-vpc-nat;-:92.42.110.125;5079
+ami-vpc-nat;-:72.21.217.96;1441
+ami-vpc-nat;('173.0.56.34.reverse.wowrack.com', ['34.56.0.173.in-addr.arpa'], ['173.0.56.34']):173.0.56.34;5673
+ami-vpc-nat;('ec2-35-175-169-143.compute-1.amazonaws.com', ['143.169.175.35.in-addr.arpa'], ['35.175.169.143']):35.175.169.143;443
+ami-vpc-nat;-:122.228.19.79;9808
+ami-vpc-nat;-:72.21.217.43;6530
+ami-vpc-nat;-:72.21.217.43;5414
+ami-vpc-nat;-:72.21.217.134;6965
+ami-vpc-nat;-:72.21.217.223;4024
+ami-vpc-nat;('45.32.145.128.vultr.com', ['128.145.32.45.in-addr.arpa'], ['45.32.145.128']):45.32.145.128;9013
+ami-vpc-nat;-:122.228.19.79;6946
+ami-vpc-nat;-:52.46.150.99;443
+ami-vpc-nat;-:123.133.0.83;6000
+ami-vpc-nat;('ec2-3-227-84-245.compute-1.amazonaws.com', ['245.84.227.3.in-addr.arpa'], ['3.227.84.245']):3.227.84.245;443

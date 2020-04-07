@@ -1,0 +1,44 @@
+prod-ec2e1c-chef;('pnawsblox01.franklinamerican.com', ['174.198.24.172.in-addr.arpa'], ['172.24.198.174']):172.24.198.174;53
+prod-ec2e1c-chef;('kazooie.canonical.com', ['39.91.189.91.in-addr.arpa'], ['91.189.91.39']):91.189.91.39;80
+prod-ec2e1c-chef;('smoke.rc.rit.edu', ['72.171.21.129.in-addr.arpa'], ['129.21.171.72']):129.21.171.72;80
+prod-ec2e1c-chef;('aerodent.canonical.com', ['142.88.189.91.in-addr.arpa'], ['91.189.88.142']):91.189.88.142;80
+SQL_IMAGE_TEMPLATE_OLD;('pnawsblox01.franklinamerican.com', ['174.198.24.172.in-addr.arpa'], ['172.24.198.174']):172.24.198.174;53
+SQL_IMAGE_TEMPLATE_OLD;('qagpublic.qg1.apps.qualys.com', ['93.104.39.64.in-addr.arpa'], ['64.39.104.93']):64.39.104.93;443
+SQL_IMAGE_TEMPLATE_OLD;-:172.22.2.133;445
+SQL_IMAGE_TEMPLATE_OLD;('mars.bna.franklinamerican.com', ['239.192.20.172.in-addr.arpa'], ['172.20.192.239']):172.20.192.239;1433
+SQL_IMAGE_TEMPLATE_OLD;('a23-62-7-153.deploy.static.akamaitechnologies.com', ['153.7.62.23.in-addr.arpa'], ['23.62.7.153']):23.62.7.153;80
+SQL_IMAGE_TEMPLATE_OLD;('a23-63-244-33.deploy.static.akamaitechnologies.com', ['33.244.63.23.in-addr.arpa'], ['23.63.244.33']):23.63.244.33;80
+SQL_IMAGE_TEMPLATE_OLD;('a23-199-71-185.deploy.static.akamaitechnologies.com', ['185.71.199.23.in-addr.arpa'], ['23.199.71.185']):23.199.71.185;80
+SQL_IMAGE_TEMPLATE_OLD;-:172.22.2.133;135
+SQL_IMAGE_TEMPLATE_OLD;('a23-62-7-169.deploy.static.akamaitechnologies.com', ['169.7.62.23.in-addr.arpa'], ['23.62.7.169']):23.62.7.169;80
+SQL_IMAGE_TEMPLATE_OLD;-:72.21.81.240;80
+SQL_IMAGE_TEMPLATE_OLD;-:172.22.2.133;1433
+SQL_IMAGE_TEMPLATE_OLD;-:172.22.2.133;0
+SQL_IMAGE_TEMPLATE_OLD;('qwawsdb01.lab.franklinamerican.com', ['125.244.21.172.in-addr.arpa'], ['172.21.244.125']):172.21.244.125;445
+SQL_IMAGE_TEMPLATE_OLD;-:172.29.173.8;0
+SQL_IMAGE_TEMPLATE_OLD;-:172.22.2.133;3389
+SQL_IMAGE_TEMPLATE_OLD;('pnnasaruba01.franklinamerican.com', ['82.194.20.172.in-addr.arpa', 'wifi-master.franklinamerican.com'], ['172.20.194.82']):172.20.194.82;0
+LAB-NAT-1c;-:172.22.45.216;443
+LAB-NAT-1c;('services.quadranet.com', ['50.111.55.198.in-addr.arpa'], ['198.55.111.50']):198.55.111.50;123
+LAB-NAT-1c;-:172.22.45.216;123
+LAB-NAT-1c;('ec2-52-21-13-223.compute-1.amazonaws.com', ['223.13.21.52.in-addr.arpa'], ['52.21.13.223']):52.21.13.223;443
+LAB-NAT-1c;('qagpublic.qg1.apps.qualys.com', ['93.104.39.64.in-addr.arpa'], ['64.39.104.93']):64.39.104.93;443
+LAB-NAT-1c;('ec2-52-1-143-36.compute-1.amazonaws.com', ['36.143.1.52.in-addr.arpa'], ['52.1.143.36']):52.1.143.36;443
+LAB-NAT-1c;('linode.ibendit.com', ['192.198.164.69.in-addr.arpa'], ['69.164.198.192']):69.164.198.192;123
+LAB-NAT-1c;-:172.20.196.146;123
+LAB-NAT-1c;('pinger6.netsec.colostate.edu', ['44.138.82.129.in-addr.arpa'], ['129.82.138.44']):129.82.138.44;0
+LAB-NAT-1c;('152-15-94-178.pool.ukrtel.net', ['152.15.94.178.in-addr.arpa'], ['178.94.15.152']):178.94.15.152;4143
+LAB-NAT-1c;('ec2-52-15-61-34.us-east-2.compute.amazonaws.com', ['34.61.15.52.in-addr.arpa'], ['52.15.61.34']):52.15.61.34;443
+LAB-NAT-1c;-:37.49.230.95;5066
+LAB-NAT-1c;('5-14-79-100.residential.rdsnet.ro', ['100.79.14.5.in-addr.arpa'], ['5.14.79.100']):5.14.79.100;1594
+LAB-NAT-1c;('time.franklinamerican.com', ['146.210.21.172.in-addr.arpa'], ['172.21.210.146']):172.21.210.146;123
+LAB-NAT-1c;('ve1124.venus.servdiscount-customer.com', ['170.135.199.5.in-addr.arpa'], ['5.199.135.170']):5.199.135.170;123
+LAB-NAT-1c;('ntp2.wiktel.com', ['199.207.89.69.in-addr.arpa'], ['69.89.207.199']):69.89.207.199;123
+LAB-NAT-1c;('ec2-34-234-127-160.compute-1.amazonaws.com', ['160.127.234.34.in-addr.arpa'], ['34.234.127.160']):34.234.127.160;443
+LAB-NAT-1c;('pinger-w4.ant.isi.edu', ['90.25.117.206.in-addr.arpa'], ['206.117.25.90']):206.117.25.90;0
+LAB-NAT-1c;('212-129-17-32.rev.poneytelecom.eu', ['32.17.129.212.in-addr.arpa'], ['212.129.17.32']):212.129.17.32;5060
+LAB-NAT-1c;('ec2-52-54-65-149.compute-1.amazonaws.com', ['149.65.54.52.in-addr.arpa'], ['52.54.65.149']):52.54.65.149;443
+LAB-NAT-1c;('prague-ping-1.cdn77.com', ['89.125.234.46.in-addr.arpa'], ['46.234.125.89']):46.234.125.89;0
+LAB-NAT-1c;('ec2-34-196-248-158.compute-1.amazonaws.com', ['158.248.196.34.in-addr.arpa'], ['34.196.248.158']):34.196.248.158;443
+LAB-NAT-1c;('scanners.labs.rapid7.com', ['141.190.202.88.in-addr.arpa'], ['88.202.190.141']):88.202.190.141;110
+LAB-NAT-1c;('ec2-34-199-38-162.compute-1.amazonaws.com', ['162.38.199.34.in-addr.arpa'], ['34.199.38.162']):34.199.38.162;443

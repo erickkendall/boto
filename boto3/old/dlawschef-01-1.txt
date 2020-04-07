@@ -1,0 +1,22 @@
+dlawschef-01-1;-:172.24.198.174;53
+dlawschef-01-1;-:172.20.192.25;389
+dlawschef-01-1;-:172.24.195.201;389
+dlawschef-01-1;-:172.20.193.237;389
+dlawschef-01-1;-:172.20.192.27;389
+dlawschef-01-1;-:174.128.89.241;80
+dlawschef-01-1;-:172.21.210.146;123
+dlawschef-01-1;-:172.23.20.72;123
+dlawschef-01-1;-:174.128.89.241;443
+dlawschef-01-1;('ec2-3-220-223-0.compute-1.amazonaws.com', ['0.223.220.3.in-addr.arpa'], ['3.220.223.0']):3.220.223.0;443
+dlawschef-01-1;('ec2-3-17-105-7.us-east-2.compute.amazonaws.com', ['7.105.17.3.in-addr.arpa'], ['3.17.105.7']):3.17.105.7;443
+dlawschef-01-1;('ec2-34-206-107-44.compute-1.amazonaws.com', ['44.107.206.34.in-addr.arpa'], ['34.206.107.44']):34.206.107.44;443
+dlawschef-01-1;('qagpublic.qg1.apps.qualys.com', ['93.104.39.64.in-addr.arpa'], ['64.39.104.93']):64.39.104.93;443
+dlawschef-01-1;-:172.20.192.180;8191
+dlawschef-01-1;-:172.20.196.146;123
+dlawschef-01-1;-:172.20.193.240;389
+dlawschef-01-1;('ec2-34-204-114-79.compute-1.amazonaws.com', ['79.114.204.34.in-addr.arpa'], ['34.204.114.79']):34.204.114.79;443
+dlawschef-01-1;-:172.20.192.26;389
+dlawschef-01-1;('ec2-34-199-38-162.compute-1.amazonaws.com', ['162.38.199.34.in-addr.arpa'], ['34.199.38.162']):34.199.38.162;443
+dlawschef-01-1;('ec2-35-171-249-178.compute-1.amazonaws.com', ['178.249.171.35.in-addr.arpa'], ['35.171.249.178']):35.171.249.178;443
+dlawschef-01-1;('ec2-34-233-14-111.compute-1.amazonaws.com', ['111.14.233.34.in-addr.arpa'], ['34.233.14.111']):34.233.14.111;443
+dlawschef-01-1;('ec2-52-1-143-36.compute-1.amazonaws.com', ['36.143.1.52.in-addr.arpa'], ['52.1.143.36']):52.1.143.36;443
