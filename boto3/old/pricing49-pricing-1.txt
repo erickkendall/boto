@@ -1,4 +1,0 @@
-pricing49-pricing-1;-:172.24.198.174;53
-pricing49-pricing-1;-:172.20.196.146;123
-pricing49-pricing-1;-:172.22.4.87;123
-pricing49-pricing-1;-:172.23.20.27;5672

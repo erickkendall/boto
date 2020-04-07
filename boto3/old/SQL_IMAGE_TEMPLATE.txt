@@ -1,9 +1,0 @@
-SQL_IMAGE_TEMPLATE;-:172.24.198.174;53
-SQL_IMAGE_TEMPLATE;-:172.20.192.239;1433
-SQL_IMAGE_TEMPLATE;('qagpublic.qg1.apps.qualys.com', ['93.104.39.64.in-addr.arpa'], ['64.39.104.93']):64.39.104.93;443
-SQL_IMAGE_TEMPLATE;('a23-221-227-173.deploy.static.akamaitechnologies.com', ['173.227.221.23.in-addr.arpa'], ['23.221.227.173']):23.221.227.173;80
-SQL_IMAGE_TEMPLATE;('a23-221-227-168.deploy.static.akamaitechnologies.com', ['168.227.221.23.in-addr.arpa'], ['23.221.227.168']):23.221.227.168;80
-SQL_IMAGE_TEMPLATE;-:8.252.81.126;80
-SQL_IMAGE_TEMPLATE;-:172.22.2.103;135
-SQL_IMAGE_TEMPLATE;-:8.252.163.254;80
-SQL_IMAGE_TEMPLATE;('a23-221-227-164.deploy.static.akamaitechnologies.com', ['164.227.221.23.in-addr.arpa'], ['23.221.227.164']):23.221.227.164;80
